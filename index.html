@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Escola Capacitar</title>
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fonte Inter do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Ícones da Font Awesome para o WhatsApp -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Icone Para o site -->
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="logosemfundo.png" alt="logo" width="180px" height="100px">
+            </a>
+            <nav class="nav-desktop">
+                <a href="#inicio" class="nav-link">Início</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#sobre" class="nav-link">Sobre Nós</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+        </div>
+        <!-- Menu móvel -->
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <nav class="mobile-nav">
+                <a href="#inicio" class="mobile-nav-link">Início</a>
+                <a href="#servicos" class="mobile-nav-link">Serviços</a>
+                <a href="#sobre" class="mobile-nav-link">Sobre Nós</a>
+                <a href="#contato" class="mobile-nav-link">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção de destaque (Hero) -->
+        <section id="inicio" class="hero-section">
+            <div class="container hero-container">
+                <h1 class="hero-title">
+                    Sua jornada para a liberdade começa aqui!
+                </h1>
+                <p class="hero-subtitle">
+                    Aprenda a dirigir com confiança e segurança com nossa equipe de instrutores experientes.
+                </p>
+                <a href="#servicos" class="button button-primary">
+                    Veja Nossos Serviços
+                </a>
+            </div>
+        </section>
+
+        <!-- Seção de serviços -->
+        <section id="servicos" class="services-section">
+            <div class="container services-container">
+                <h2 class="section-title">
+                    Nossos Serviços
+                </h2>
+                <div class="services-grid">
+                    <!-- Serviço 1 -->
+                    <div class="service-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="service-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m-5 4h8a2 2 0 002-2V6a2 2 0 00-2-2H9a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                        <h3 class="service-title">Primeira Habilitação</h3>
+                        <p class="service-description">Aulas teóricas e práticas completas para você conquistar sua primeira CNH.</p>
+                    </div>
+                    <!-- Serviço 2 -->
+                    <div class="service-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="service-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                        </svg>
+                        <h3 class="service-title">Adição de Categoria</h3>
+                        <p class="service-description">Inclua novas categorias à sua habilitação de forma rápida e fácil.</p>
+                    </div>
+                    <!-- Serviço 3 -->
+                    <div class="service-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="service-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m-4.5 7.5a9 9 0 110-18 9 9 0 010 18z" />
+                        </svg>
+                        <h3 class="service-title">Renovação de CNH</h3>
+                        <p class="service-description">Facilitamos o processo de renovação da sua Carteira Nacional de Habilitação.</p>
+                    </div>
+                    <!-- Serviço 4 -->
+                    <div class="service-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="service-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h-4a2 2 0 01-2-2V8a2 2 0 012-2h4a2 2 0 012 2v10a2 2 0 01-2 2zM9 13H5a2 2 0 01-2-2V7a2 2 0 012-2h4M9 13V7m0 6a2 2 0 002 2h4a2 2 0 002-2" />
+                        </svg>
+                        <h3 class="service-title">Aulas para Habilitados</h3>
+                        <p class="service-description">Aperfeiçoe suas habilidades de direção com aulas personalizadas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Nós -->
+        <section id="sobre" class="about-section">
+            <div class="container about-container">
+                <h2 class="section-title">
+                    Sobre Nós
+                </h2>
+                <div class="about-text">
+                    <p>
+                        Na Auto Escola Conquista, nossa missão é transformar novos condutores em motoristas conscientes e responsáveis. Com mais de 10 anos de experiência, nossa equipe de instrutores é altamente qualificada e dedicada a oferecer um ensino de qualidade, focado na segurança e na confiança ao volante.
+                    </p>
+                    <p>
+                        Nossa frota de veículos é moderna e equipada com as melhores tecnologias de segurança. Acreditamos que a educação no trânsito é fundamental e nos dedicamos a criar um ambiente de aprendizado acolhedor e eficaz para todos os nossos alunos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de contato -->
+        <section id="contato" class="contact-section">
+            <div class="container contact-container">
+                <h2 class="section-title">
+                    Entre em Contato
+                </h2>
+                <div class="contact-form-card">
+                    <form action="#" method="POST" class="contact-form">
+                        <div>
+                            <label for="nome" class="form-label">Nome completo</label>
+                            <input type="text" id="nome" name="nome" required class="form-input">
+                        </div>
+                        <div>
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" required class="form-input">
+                        </div>
+                        <div>
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" class="form-input">
+                        </div>
+                        <div>
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" required class="form-input"></textarea>
+                        </div>
+                        <button type="submit" class="button button-primary button-full">
+                            Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2025 Auto Escola Capacitar. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botão flutuante do WhatsApp -->
+    <a href="https://wa.me/553189097525?text=Olá!!!%20gostaria%20fazer%20um%20orçamento" class="whatsapp-button" target="_blank" aria-label="Fale conosco pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        const navLinks = document.querySelectorAll('.mobile-nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
